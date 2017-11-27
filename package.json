@@ -11,6 +11,7 @@
     "gh-pages": "gatsby build --prefix-paths && gh-pages -d public",
     "lint": "node_modules/.bin/eslint src --fix",
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
   "author": "Keevan Dance",
