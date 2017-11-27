@@ -3,12 +3,15 @@
 import React from 'react';
 import Features from '../components/features';
 import HowTo from '../components/how-to';
+import Introduction from '../components/intro'
 
-const IndexPage = props =>
-  (<main>
-    <Features data={props.data.allDataJson.edges[0].node.features} />
+const IndexPage = props => (
+  <main>
+    <Introduction />
+    <Features data={props.data.allDataJson.edges[0].node.projects} />
     <HowTo data={props.data.allDataJson.edges[0].node.howTo} />
-  </main>);
+  </main>
+);
 
 export default IndexPage;
 
@@ -17,8 +20,14 @@ export const pageQuery = graphql`
     allDataJson {
       edges {
         node {
-          features {
+          projects {
             title
+            description
+            android
+            ios
+            web
+            repository
+            image
           }
           howTo {
             title

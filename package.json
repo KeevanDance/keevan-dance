@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-react-boilerplate",
+  "name": "keevan-dance",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal website for Keevan Dance.",
   "main": "index.js",
   "scripts": {
     "develop": "gatsby develop",
@@ -13,7 +13,7 @@
     "dev": "(shx --silent rm -rf public || shx true) && gatsby develop",
     "server": "cross-env NODE_ENV=development DEBUG=api nodemon server.js"
   },
-  "author": "Prototype Interactive",
+  "author": "Keevan Dance",
   "license": "MIT",
   "dependencies": {
     "basic-auth": "^2.0.0",
@@ -47,10 +47,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrototypeInteractive/gatsby-react-boilerplate.git"
+    "url": "git+https://github.com/KeevanDance/keevan-dance.git"
   },
   "bugs": {
-    "url": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate/issues"
+    "url": "https://github.com/KeevanDance/keevan-dance/issues"
   },
-  "homepage": "https://github.com/PrototypeInteractive/gatsby-react-boilerplate#readme"
+  "homepage": "https://keevan.dance"
 }
