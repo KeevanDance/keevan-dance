@@ -4,7 +4,7 @@
             "title": "CrossFit Throwdown",
             "description": "Cross-platform mobile application built with React-Native and Firebase that assists CrossFit Yuma in their annual Throwdown competition.",
             "android": "https://play.google.com/store/apps/details?id=com.keevandance.crossfitthrowdown&hl=en",
-            "ios": "",
+            "ios": "https://itunes.apple.com/us/app/crossfit-throwdown/id1317663439?mt=8&ign-mpt=uo%3D4",
             "web": "",
             "repository": "https://github.com/KeevanDance/CFThrowdown-lite",
             "image": "https://i.imgur.com/u12VWAP.png",
